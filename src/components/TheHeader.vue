@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const title = import.meta.env.VITE_APP_TITLE
 const headerList = [
   {
     name: 'Home',
@@ -15,7 +16,7 @@ const headerList = [
   <div>
     <div flex justify-between>
       <h2 text-2rem>
-        Summer
+        {{ title }}
       </h2>
       <div flex m="t-3">
         <div

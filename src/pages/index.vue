@@ -2,7 +2,8 @@
 defineOptions({
   name: 'IndexPage',
 })
-
+const subTitle = import.meta.env.VITE_APP_SUBTITLE
+const mail = import.meta.env.VITE_APP_EMAIL
 // const router = useRouter()
 // const go = () => {
 //   if (name)
@@ -13,10 +14,18 @@ defineOptions({
 <template>
   <div>
     <section flex items-center justify-between>
-      <img src="/home.jpg" alt="home" w="4/5">
-      <p text-center>
-        寫字的ライター
-      </p>
+      <img src="/home.jpg" alt="home" w="3/4">
+      <div text-right>
+        <h3 text-2xl mb-3>
+          Summer
+        </h3>
+        <p>
+          {{ subTitle }}
+        </p>
+        <i text-sm>
+          {{ mail }}
+        </i>
+      </div>
     </section>
   </div>
 </template>

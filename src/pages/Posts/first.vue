@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-  name: 'Posts',
+  name: 'Fiirst',
 })
 const router = useRouter()
 const route = useRoute()
