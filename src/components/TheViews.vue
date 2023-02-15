@@ -1,6 +1,6 @@
 <script setup lang="ts" generic="T extends any, O extends any">
 defineOptions({
-  name: 'The Views',
+  name: 'TheViews',
 })
 const url = import.meta.env.VITE_APP_INSTAGRAM
 </script>
