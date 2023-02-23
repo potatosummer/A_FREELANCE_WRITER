@@ -15,7 +15,7 @@ const headerList = [
 <template>
   <div>
     <div flex justify-between>
-      <h2 text-2rem>
+      <h2 text-2rem font-mPlus>
         {{ title }}
       </h2>
       <div flex m="t-3">

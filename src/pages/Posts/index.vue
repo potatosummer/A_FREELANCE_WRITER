@@ -42,7 +42,7 @@ const filterTags = computed(() => {
       <button
         v-for="item of filterTags" :key="item"
         :class="item === keywords && 'text-gray-300'"
-        ml-2 text-gray-400 hover:text-gray-300
+        ml-2 text-gray-400 hover:text-gray-300 font-mPlus
         @click="filterArticle(item)"
       >
         {{ item }}

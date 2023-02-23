@@ -19,7 +19,7 @@ const mail = import.meta.env.VITE_APP_EMAIL
         <h3 text-2xl mb-3>
           Summer
         </h3>
-        <p>
+        <p font-mPlus>
           {{ subTitle }}
         </p>
         <i text-sm>
